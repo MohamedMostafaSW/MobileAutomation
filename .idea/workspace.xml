@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ca19791-7ad2-4efd-bc53-21d5d23318ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/LongPress.java" afterDir="false" />
+    <list default="true" id="5ca19791-7ad2-4efd-bc53-21d5d23318ef" name="Changes" comment="first time">
+      <change afterPath="$PROJECT_DIR$/src/test/java/gestures/LongPressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/LongPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/LongPress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InitializeTheAPP/OpenAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InitializeTheAPP/OpenAPP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gestures/LongPress.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MohamedMostafaSW"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MohamedMostafaSW/MobileAutomation.git",
+    "accountId": "e71aca9d-d10b-4b1f-81a6-2aa8d012498f"
+  }
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -43,31 +50,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.OpenAPP.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Test1.firstTest.executor&quot;: &quot;Run&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Mohamed Mostafa/IdeaProjects/ProjectMobile/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.LongPressTest.longPressGesture.executor": "Run",
+    "TestNG.OpenAPP.test.executor": "Run",
+    "TestNG.Scrolling.scrollToWebview.executor": "Run",
+    "TestNG.Test1.firstTest.executor": "Run",
+    "TestNG.Test2.longPressGesture.executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Mohamed Mostafa/IdeaProjects/ProjectMobile/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="perference" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="allGesturesHandling" />
       <recent name="mohamed" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test1.firstTest">
+  <component name="RunManager" selected="TestNG.Scrolling.scrollToWebview">
+    <configuration name="LongPressTest.longPressGesture" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gestures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gestures" />
+      <option name="MAIN_CLASS_NAME" value="gestures.LongPressTest" />
+      <option name="METHOD_NAME" value="longPressGesture" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OpenAPP.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectMobile" />
       <extension name="coverage">
@@ -79,6 +108,24 @@
       <option name="PACKAGE_NAME" value="InitializeTheAPP" />
       <option name="MAIN_CLASS_NAME" value="InitializeTheAPP.OpenAPP" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scrolling.scrollToWebview" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gestures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gestures" />
+      <option name="MAIN_CLASS_NAME" value="gestures.Scrolling" />
+      <option name="METHOD_NAME" value="scrollToWebview" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,6 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Scrolling.scrollToWebview" />
+        <item itemvalue="TestNG.LongPressTest.longPressGesture" />
         <item itemvalue="TestNG.Test1.firstTest" />
         <item itemvalue="TestNG.OpenAPP.test" />
       </list>
@@ -120,7 +169,20 @@
       <option name="presentableId" value="Default" />
       <updated>1722189069604</updated>
     </task>
+    <task id="LOCAL-00001" summary="first time">
+      <option name="closed" value="true" />
+      <created>1722366520924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722366520924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first time" />
+    <option name="LAST_COMMIT_MESSAGE" value="first time" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

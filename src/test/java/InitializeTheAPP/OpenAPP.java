@@ -1,9 +1,13 @@
 package InitializeTheAPP;
 
+import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -31,7 +35,10 @@ public class OpenAPP {
         driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
-
+    public void longPressMethod(WebElement element) {
+        ((JavascriptExecutor) driver).executeScript("mobile: longClickGesture", ImmutableMap.of(
+                "elementId", ((RemoteWebElement) element).getId(), "duration", 2000));
+    }
     @AfterClass
     public void teardown() {
         driver.quit();
