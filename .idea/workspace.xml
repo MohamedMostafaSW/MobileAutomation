@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ca19791-7ad2-4efd-bc53-21d5d23318ef" name="Changes" comment="first time">
-      <change afterPath="$PROJECT_DIR$/src/test/java/gestures/LongPressTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/AppListOfDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/DragAndDropELe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/app/ListOfDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/views/DragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/views/Swipe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/LongPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/LongPress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/allGesturesHandling/gestures.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/InitializeTheAPP/OpenAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InitializeTheAPP/OpenAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gestures/LongPress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allGesturesHandling/Gestures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gestures/LongPressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/views/LongPressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gestures/Scrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/views/Scrolling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,18 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MohamedMostafaSW"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MohamedMostafaSW&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MohamedMostafaSW/MobileAutomation.git",
-    "accountId": "e71aca9d-d10b-4b1f-81a6-2aa8d012498f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MohamedMostafaSW/MobileAutomation.git&quot;,
+    &quot;accountId&quot;: &quot;e71aca9d-d10b-4b1f-81a6-2aa8d012498f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -54,9 +60,12 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.DragAndDrop.moveCircle.executor": "Run",
+    "TestNG.ListOfDialog.verifyCommondsWork.executor": "Run",
     "TestNG.LongPressTest.longPressGesture.executor": "Run",
     "TestNG.OpenAPP.test.executor": "Run",
     "TestNG.Scrolling.scrollToWebview.executor": "Run",
+    "TestNG.Swipe.swipe.executor": "Run",
     "TestNG.Test1.firstTest.executor": "Run",
     "TestNG.Test2.longPressGesture.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
@@ -74,22 +83,23 @@
       <recent name="perference" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gestures" />
       <recent name="allGesturesHandling" />
       <recent name="mohamed" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Scrolling.scrollToWebview">
-    <configuration name="LongPressTest.longPressGesture" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ListOfDialog.verifyCommondsWork">
+    <configuration name="DragAndDrop.moveCircle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectMobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gestures.*" />
+          <option name="PATTERN" value="views.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="gestures" />
-      <option name="MAIN_CLASS_NAME" value="gestures.LongPressTest" />
-      <option name="METHOD_NAME" value="longPressGesture" />
+      <option name="PACKAGE_NAME" value="views" />
+      <option name="MAIN_CLASS_NAME" value="views.DragAndDrop" />
+      <option name="METHOD_NAME" value="moveCircle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,17 +107,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenAPP.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListOfDialog.verifyCommondsWork" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectMobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InitializeTheAPP.*" />
+          <option name="PATTERN" value="app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="InitializeTheAPP" />
-      <option name="MAIN_CLASS_NAME" value="InitializeTheAPP.OpenAPP" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="app" />
+      <option name="MAIN_CLASS_NAME" value="app.ListOfDialog" />
+      <option name="METHOD_NAME" value="verifyCommondsWork" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongPressTest.longPressGesture" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="views.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gestures" />
+      <option name="MAIN_CLASS_NAME" value="views.LongPressTest" />
+      <option name="METHOD_NAME" value="longPressGesture" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,12 +147,12 @@
       <module name="ProjectMobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gestures.*" />
+          <option name="PATTERN" value="views.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="gestures" />
-      <option name="MAIN_CLASS_NAME" value="gestures.Scrolling" />
+      <option name="MAIN_CLASS_NAME" value="views.Scrolling" />
       <option name="METHOD_NAME" value="scrollToWebview" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -133,17 +161,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Swipe.swipe" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectMobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="perference.*" />
+          <option name="PATTERN" value="views.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="perference" />
-      <option name="MAIN_CLASS_NAME" value="perference.Test1" />
-      <option name="METHOD_NAME" value="firstTest" />
+      <option name="PACKAGE_NAME" value="gestures" />
+      <option name="MAIN_CLASS_NAME" value="views.Swipe" />
+      <option name="METHOD_NAME" value="swipe" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,10 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ListOfDialog.verifyCommondsWork" />
+        <item itemvalue="TestNG.DragAndDrop.moveCircle" />
+        <item itemvalue="TestNG.Swipe.swipe" />
         <item itemvalue="TestNG.Scrolling.scrollToWebview" />
         <item itemvalue="TestNG.LongPressTest.longPressGesture" />
-        <item itemvalue="TestNG.Test1.firstTest" />
-        <item itemvalue="TestNG.OpenAPP.test" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722366520924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first time">
+      <option name="closed" value="true" />
+      <created>1722371950746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722371950746</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,4 +1,4 @@
-package gestures;
+package views;
 
 import InitializeTheAPP.OpenAPP;
 import locatorsAndFunctions.LongPress;

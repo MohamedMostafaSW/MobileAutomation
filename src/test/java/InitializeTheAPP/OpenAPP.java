@@ -35,10 +35,26 @@ public class OpenAPP {
         driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
+
     public void longPressMethod(WebElement element) {
         ((JavascriptExecutor) driver).executeScript("mobile: longClickGesture", ImmutableMap.of(
                 "elementId", ((RemoteWebElement) element).getId(), "duration", 2000));
     }
+
+    public void swipeMethod(WebElement element, String direction) {
+        ((JavascriptExecutor) driver).executeScript("mobile: swipeGesture", ImmutableMap.of(
+                "elementId", ((RemoteWebElement) element).getId(),
+                "direction", direction,
+                "percent", 0.25));
+    }
+
+    public void dragAndDropMethod(WebElement element,int putX,int putY) {
+        ((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of(
+                "elementId", ((RemoteWebElement) element).getId(),
+                "endX", putX,
+                "endY", putY));
+    }
+
     @AfterClass
     public void teardown() {
         driver.quit();

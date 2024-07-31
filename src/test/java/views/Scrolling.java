@@ -1,4 +1,4 @@
-package gestures;
+package views;
 
 import InitializeTheAPP.OpenAPP;
 import io.appium.java_client.AppiumBy;
