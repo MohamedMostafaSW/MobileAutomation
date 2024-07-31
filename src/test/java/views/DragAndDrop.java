@@ -1,7 +1,6 @@
 package views;
 
 import InitializeTheAPP.OpenAPP;
-import io.appium.java_client.android.AndroidDriver;
 import locatorsAndFunctions.DragAndDropELe;
 import org.testng.Assert;
 import org.testng.annotations.Test;
