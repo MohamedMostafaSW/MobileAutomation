@@ -1,7 +1,8 @@
 package perference;
 
 import InitializeTheAPP.OpenAPP;
-import locatorsAndFunctions.Perferences;
+import locatorsAndFunctionsApiDemo.Perferences;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SetWifiName extends OpenAPP {
@@ -9,5 +10,6 @@ public class SetWifiName extends OpenAPP {
     public void firstTest() {
         Perferences perferences = new Perferences(driver);
         perferences.setWifiName("mostafa");
+        Assert.assertEquals(perferences.WifiName(),"mostafa");
     }
 }

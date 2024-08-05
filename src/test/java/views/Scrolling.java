@@ -1,20 +1,20 @@
 package views;
 
 import InitializeTheAPP.OpenAPP;
-import io.appium.java_client.AppiumBy;
-import locatorsAndFunctions.ScrollingWebview;
+import locatorsAndFunctionsApiDemo.ScrollingWebview;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Scrolling extends OpenAPP {
 
     @Test
-    public void scrollToWebview() throws InterruptedException {
+    public void scrollToWebview(){
         ScrollingWebview scrolling = new ScrollingWebview(driver);
         scrolling.onlyclick();
-        driver.findElement(AppiumBy
-                .androidUIAutomator("new UiScrollable(new UiSelector())" +
-                        ".scrollIntoView(text(\"WebView\"));"));
-        Thread.sleep(2000);
+        scrollToSpecificText("WebView");
+        Assert.assertTrue(scrolling.webViewAppear(),"scrolling done correctly");
+
+
     }
 
 

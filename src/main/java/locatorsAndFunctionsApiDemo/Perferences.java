@@ -1,4 +1,4 @@
-package locatorsAndFunctions;
+package locatorsAndFunctionsApiDemo;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -39,9 +39,10 @@ public class Perferences {
         clicOnCheckBox.click();
         clickOnWifi.click();
         sendName.sendKeys(enterWifiName);
+        wifiName=sendName.getText();
         clickOnOK.click();
     }
-    public void copyWifiName(String enterWifiName){
+    public void copyWifiName(String enterWifiName) {
         clickOnPerferences.click();
         clickOnDependencies.click();
         clicOnCheckBox.click();
@@ -50,8 +51,11 @@ public class Perferences {
         driver.setClipboardText(sendName.getText());
         sendName.sendKeys(Keys.CLEAR);
         driver.getClipboardText();
-        System.out.println(sendName.getText());
+        wifiName=sendName.getText();
         clickOnOK.click();
     }
-
+    String wifiName;
+    public String WifiName(){
+        return wifiName;
+    }
 }

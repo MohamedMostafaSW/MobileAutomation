@@ -1,6 +1,5 @@
-package locatorsAndFunctions;
+package locatorsAndFunctionsApiDemo;
 
-import dev.failsafe.internal.util.Assert;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebElement;

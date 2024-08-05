@@ -1,7 +1,7 @@
-package app;
+package skills;
 
 import InitializeTheAPP.OpenAPP;
-import locatorsAndFunctions.AppListOfDialog;
+import locatorsAndFunctionsApiDemo.AppListOfDialog;
 import org.openqa.selenium.DeviceRotation;
 import org.testng.Assert;
 import org.testng.annotations.Test;

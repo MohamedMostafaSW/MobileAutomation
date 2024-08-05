@@ -1,4 +1,4 @@
-package locatorsAndFunctions;
+package locatorsAndFunctionsApiDemo;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;

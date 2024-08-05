@@ -1,7 +1,7 @@
 package views;
 
 import InitializeTheAPP.OpenAPP;
-import locatorsAndFunctions.SwipeInGallery;
+import locatorsAndFunctionsApiDemo.SwipeInGallery;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

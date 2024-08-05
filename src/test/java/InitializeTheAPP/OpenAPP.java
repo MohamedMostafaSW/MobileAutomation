@@ -1,6 +1,8 @@
 package InitializeTheAPP;
 
 import com.google.common.collect.ImmutableMap;
+import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -30,8 +32,9 @@ public class OpenAPP {
                 .usingPort(4723).build();
         service.start();
         UiAutomator2Options options = new UiAutomator2Options();
-        options.setDeviceName("locatorsAndFunctions");
-        options.setApp("C:\\Users\\Mohamed Mostafa\\Downloads\\APKFiles (1)\\resources\\ApiDemos-debug.apk");
+        options.setDeviceName("locatorsAndFunctionsApiDemo");
+//        options.setApp("C:\\Users\\Mohamed Mostafa\\Downloads\\APKFiles (1)\\resources\\ApiDemos-debug.apk");
+        options.setApp("C:\\Users\\Mohamed Mostafa\\Downloads\\APKFiles (1)\\resources\\General-Store.apk");
         driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
@@ -53,6 +56,16 @@ public class OpenAPP {
                 "elementId", ((RemoteWebElement) element).getId(),
                 "endX", putX,
                 "endY", putY));
+    }
+    public void scrollToSpecificText(String enterName){
+        driver.findElement(AppiumBy
+                .androidUIAutomator("new UiScrollable(new UiSelector())" +
+                        ".scrollIntoView(text(\""+enterName +"\"));"));
+    }
+    public void openPage(String packageName, String activityName, String packageAndActivityName){
+        Activity activity = new Activity(packageName,activityName);
+        ((JavascriptExecutor) driver).executeScript("mobile: startActivity", ImmutableMap.of(
+                "intent",packageAndActivityName));
     }
 
     @AfterClass

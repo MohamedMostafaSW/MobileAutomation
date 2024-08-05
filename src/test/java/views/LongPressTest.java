@@ -1,7 +1,7 @@
 package views;
 
 import InitializeTheAPP.OpenAPP;
-import locatorsAndFunctions.LongPress;
+import locatorsAndFunctionsApiDemo.LongPress;
 import org.testng.annotations.Test;
 
 public class LongPressTest extends OpenAPP {

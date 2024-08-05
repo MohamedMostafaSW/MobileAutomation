@@ -1,7 +1,7 @@
 package views;
 
 import InitializeTheAPP.OpenAPP;
-import locatorsAndFunctions.DragAndDropELe;
+import locatorsAndFunctionsApiDemo.DragAndDropELe;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

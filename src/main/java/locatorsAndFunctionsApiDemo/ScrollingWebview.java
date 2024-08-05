@@ -1,4 +1,4 @@
-package locatorsAndFunctions;
+package locatorsAndFunctionsApiDemo;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -13,4 +13,11 @@ public class ScrollingWebview extends Perferences{
     public void onlyclick(){
         clickOnViews.click();
     }
+    @AndroidFindBy(accessibility = "WebView")
+    private WebElement webView;
+    public boolean webViewAppear(){
+
+        return webView.isDisplayed();
+    }
+
 }

@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ca19791-7ad2-4efd-bc53-21d5d23318ef" name="Changes" comment="Second time">
+    <list default="true" id="5ca19791-7ad2-4efd-bc53-21d5d23318ef" name="Changes" comment="another success day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/Perferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/Perferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/AppListOfDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/AppListOfDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/DragAndDropELe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/DragAndDropELe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/LongPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/LongPress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/Perferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/Perferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/ScrollingWebview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/ScrollingWebview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctions/SwipeInGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/SwipeInGallery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/InitializeTheAPP/OpenAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InitializeTheAPP/OpenAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/app/ListOfDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/ListInLandscapeMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/perference/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/perference/SetWifiName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/app/ListInLandscapeMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/skills/ListInLandscapeMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/perference/CopyAndPaste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/perference/CopyAndPaste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/perference/SetWifiName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/perference/SetWifiName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/views/DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/views/DragAndDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/views/LongPressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/views/LongPressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/views/Scrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/views/Scrolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/views/Swipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/views/Swipe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +66,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.CopyAndPaste.firstTest.executor": "Run",
     "TestNG.DragAndDrop.moveCircle.executor": "Run",
+    "TestNG.FillingForm.fillTheForm.executor": "Run",
     "TestNG.ListOfDialog.verifyCommondsWork.executor": "Run",
     "TestNG.LongPressTest.longPressGesture.executor": "Run",
     "TestNG.OpenAPP.test.executor": "Run",
@@ -85,7 +96,7 @@
       <recent name="mohamed" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CopyAndPaste.firstTest">
+  <component name="RunManager" selected="TestNG.FillingForm.fillTheForm">
     <configuration name="CopyAndPaste.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectMobile" />
       <extension name="coverage">
@@ -104,17 +115,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragAndDrop.moveCircle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FillingForm.fillTheForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectMobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="views.*" />
+          <option name="PATTERN" value="generalStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="views" />
-      <option name="MAIN_CLASS_NAME" value="views.DragAndDrop" />
-      <option name="METHOD_NAME" value="moveCircle" />
+      <option name="PACKAGE_NAME" value="generalStore" />
+      <option name="MAIN_CLASS_NAME" value="generalStore.FillingForm" />
+      <option name="METHOD_NAME" value="fillTheForm" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,13 +137,31 @@
       <module name="ProjectMobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="app.*" />
+          <option name="PATTERN" value="skills.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="app" />
-      <option name="MAIN_CLASS_NAME" value="app.ListInLandscapeMode" />
+      <option name="MAIN_CLASS_NAME" value="skills.ListInLandscapeMode" />
       <option name="METHOD_NAME" value="verifyCommondsWork" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scrolling.scrollToWebview" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="views.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="views" />
+      <option name="MAIN_CLASS_NAME" value="views.Scrolling" />
+      <option name="METHOD_NAME" value="scrollToWebview" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,31 +187,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Swipe.swipe" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjectMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="views.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gestures" />
-      <option name="MAIN_CLASS_NAME" value="views.Swipe" />
-      <option name="METHOD_NAME" value="swipe" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CopyAndPaste.firstTest" />
+        <item itemvalue="TestNG.FillingForm.fillTheForm" />
+        <item itemvalue="TestNG.Scrolling.scrollToWebview" />
         <item itemvalue="TestNG.SetWifiName.firstTest" />
+        <item itemvalue="TestNG.CopyAndPaste.firstTest" />
         <item itemvalue="TestNG.ListInLandscapeMode.verifyCommondsWork" />
-        <item itemvalue="TestNG.DragAndDrop.moveCircle" />
-        <item itemvalue="TestNG.Swipe.swipe" />
       </list>
     </recent_temporary>
   </component>
@@ -235,13 +246,22 @@
       <option name="project" value="LOCAL" />
       <updated>1722456632098</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="another success day">
+      <option name="closed" value="true" />
+      <created>1722867148443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722867148443</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first time" />
     <MESSAGE value="Second time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second time" />
+    <MESSAGE value="another success day" />
+    <option name="LAST_COMMIT_MESSAGE" value="another success day" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
