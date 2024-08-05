@@ -15,7 +15,7 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 public class OpenAPP {
     public AppiumDriverLocalService service;
@@ -33,7 +33,7 @@ public class OpenAPP {
         options.setDeviceName("locatorsAndFunctions");
         options.setApp("C:\\Users\\Mohamed Mostafa\\Downloads\\APKFiles (1)\\resources\\ApiDemos-debug.apk");
         driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
     public void longPressMethod(WebElement element) {

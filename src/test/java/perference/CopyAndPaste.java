@@ -4,10 +4,13 @@ import InitializeTheAPP.OpenAPP;
 import locatorsAndFunctions.Perferences;
 import org.testng.annotations.Test;
 
-public class Test1 extends OpenAPP {
+
+
+public class CopyAndPaste extends OpenAPP {
     @Test
-    public void firstTest(){
+    public void firstTest() {
         Perferences perferences= new Perferences(driver);
-        perferences.setWifiName("mostafa");
+        perferences.copyWifiName("mostafa");
+
     }
 }

@@ -3,6 +3,7 @@ package locatorsAndFunctions;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
@@ -26,7 +27,7 @@ public class Perferences {
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='WiFi settings']")
     private WebElement clickOnWifi;
 
-    @AndroidFindBy(className = "android.widget.EditText")
+    @AndroidFindBy(id = "android:id/edit")
     private WebElement sendName;
 
     @AndroidFindBy(id = "android:id/button1")
@@ -38,6 +39,18 @@ public class Perferences {
         clicOnCheckBox.click();
         clickOnWifi.click();
         sendName.sendKeys(enterWifiName);
+        clickOnOK.click();
+    }
+    public void copyWifiName(String enterWifiName){
+        clickOnPerferences.click();
+        clickOnDependencies.click();
+        clicOnCheckBox.click();
+        clickOnWifi.click();
+        sendName.sendKeys(enterWifiName);
+        driver.setClipboardText(sendName.getText());
+        sendName.sendKeys(Keys.CLEAR);
+        driver.getClipboardText();
+        System.out.println(sendName.getText());
         clickOnOK.click();
     }
 

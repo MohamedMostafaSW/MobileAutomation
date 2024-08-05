@@ -6,7 +6,7 @@ import org.openqa.selenium.DeviceRotation;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ListOfDialog extends OpenAPP {
+public class ListInLandscapeMode extends OpenAPP {
     @Test
     public void verifyCommondsWork() {
         AppListOfDialog appList = new AppListOfDialog(driver);
