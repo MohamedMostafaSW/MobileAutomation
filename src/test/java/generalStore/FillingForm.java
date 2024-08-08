@@ -11,9 +11,10 @@ import java.time.Duration;
 
 public class FillingForm extends OpenAPP {
 
+    LoginPage login;
     @Test
     public void fillTheForm(){
-        LoginPage login =new LoginPage(driver);
+        login =new LoginPage(driver);
         WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(5));
         login.enterValidName("Mohamed Mostafa");
         login.genderMale();
@@ -24,6 +25,13 @@ public class FillingForm extends OpenAPP {
         login.startShopping();
         wait.until(ExpectedConditions.invisibilityOf(login.products));
         Assert.assertTrue(login.productsPage());
+    }
+    @Test
+    public void failMissingToEnterName(){
+        login=new LoginPage(driver);
+        login.startShopping();
+        Assert.assertEquals(login.getMeesage(),"Please enter your name");
+
     }
 
 }

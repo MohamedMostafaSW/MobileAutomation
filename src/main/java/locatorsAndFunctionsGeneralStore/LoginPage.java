@@ -31,6 +31,14 @@ public class LoginPage {
     @AndroidFindBy(id = "com.androidsample.generalstore:id/toolbar_title")
     public WebElement products;
 
+    @AndroidFindBy(xpath = "(//android.widget.Toast)[1]")
+    private WebElement errorMessage;
+
+    public String getMeesage(){
+        return errorMessage.getAttribute("name");
+
+    }
+
     public void enterValidName(String enterName){
         name.sendKeys(enterName);
         driver.hideKeyboard();

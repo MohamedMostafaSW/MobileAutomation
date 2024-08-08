@@ -1,4 +1,4 @@
-package skills;
+package apiDemo.skills;
 
 import InitializeTheAPP.OpenAPP;
 import locatorsAndFunctionsApiDemo.AppListOfDialog;

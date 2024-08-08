@@ -1,4 +1,4 @@
-package views;
+package apiDemo.views;
 
 import InitializeTheAPP.OpenAPP;
 import locatorsAndFunctionsApiDemo.LongPress;

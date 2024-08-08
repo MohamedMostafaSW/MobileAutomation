@@ -1,4 +1,4 @@
-package perference;
+package apiDemo.perference;
 
 import InitializeTheAPP.OpenAPP;
 import locatorsAndFunctionsApiDemo.Perferences;
