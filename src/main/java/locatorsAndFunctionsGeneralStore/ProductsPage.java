@@ -2,7 +2,6 @@ package locatorsAndFunctionsGeneralStore;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import io.appium.java_client.pagefactory.AndroidFindBys;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
