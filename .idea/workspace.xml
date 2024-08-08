@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ca19791-7ad2-4efd-bc53-21d5d23318ef" name="Changes" comment="another success day">
+      <change afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiDemo/TotalAmount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/generalStore/FillingForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/FillingForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/perference/CopyAndPaste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/perference/SetWifiName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/skills/ListInLandscapeMode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/views/DragAndDrop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/views/LongPressTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/views/Scrolling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/views/Swipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/AppListOfDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/AppListOfDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/DragAndDropELe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/DragAndDropELe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/LongPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/LongPress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/Perferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/Perferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/ScrollingWebview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/ScrollingWebview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/SwipeInGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/SwipeInGallery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InitializeTheAPP/OpenAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InitializeTheAPP/OpenAPP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/perference/CopyAndPaste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/perference/CopyAndPaste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/perference/SetWifiName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/perference/SetWifiName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/skills/ListInLandscapeMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/skills/ListInLandscapeMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/views/DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/views/DragAndDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/views/LongPressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/views/LongPressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/views/Scrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/views/Scrolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/views/Swipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/views/Swipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/generalStore/FillingForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiDemo/FillingForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/generalStore/ScrollingToProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiDemo/ScrollingToProduct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +74,7 @@
     "TestNG.DragAndDrop.moveCircle.executor": "Run",
     "TestNG.FillingForm.failMissingToEnterName.executor": "Run",
     "TestNG.FillingForm.fillTheForm.executor": "Run",
+    "TestNG.HybridApp.sumProducts.executor": "Run",
     "TestNG.ListOfDialog.verifyCommondsWork.executor": "Run",
     "TestNG.LongPressTest.longPressGesture.executor": "Run",
     "TestNG.OpenAPP.test.executor": "Run",
@@ -72,6 +84,8 @@
     "TestNG.Swipe.swipe.executor": "Run",
     "TestNG.Test1.firstTest.executor": "Run",
     "TestNG.Test2.longPressGesture.executor": "Run",
+    "TestNG.TotalAmount.nnk.executor": "Run",
+    "TestNG.TotalAmount.sumProducts.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -93,41 +107,24 @@
       <recent name="C:\Users\Mohamed Mostafa\IdeaProjects\ProjectMobile\src\test\java\apiDemo\perference" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="apiDemo" />
       <recent name="perference" />
       <recent name="gestures" />
       <recent name="allGesturesHandling" />
       <recent name="mohamed" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ScrollingToProduct.scrolling">
-    <configuration name="CopyAndPaste.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjectMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="perference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="perference" />
-      <option name="MAIN_CLASS_NAME" value="perference.CopyAndPaste" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.HybridApp.sumProducts">
     <configuration name="FillingForm.failMissingToEnterName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectMobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generalStore.*" />
+          <option name="PATTERN" value="apiDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="generalStore" />
-      <option name="MAIN_CLASS_NAME" value="generalStore.FillingForm" />
+      <option name="MAIN_CLASS_NAME" value="apiDemo.FillingForm" />
       <option name="METHOD_NAME" value="failMissingToEnterName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -136,17 +133,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FillingForm.fillTheForm" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HybridApp.sumProducts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectMobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generalStore.*" />
+          <option name="PATTERN" value="apiDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="generalStore" />
-      <option name="MAIN_CLASS_NAME" value="generalStore.FillingForm" />
-      <option name="METHOD_NAME" value="fillTheForm" />
+      <option name="PACKAGE_NAME" value="apiDemo" />
+      <option name="MAIN_CLASS_NAME" value="apiDemo.HybridApp" />
+      <option name="METHOD_NAME" value="sumProducts" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,17 +151,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrollingToProduct.scrolling" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SetWifiName.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectMobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generalStore.*" />
+          <option name="PATTERN" value="generalStore.perference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="generalStore" />
-      <option name="MAIN_CLASS_NAME" value="generalStore.ScrollingToProduct" />
-      <option name="METHOD_NAME" value="scrolling" />
+      <option name="PACKAGE_NAME" value="apiDemo.perference" />
+      <option name="MAIN_CLASS_NAME" value="generalStore.perference.SetWifiName" />
+      <option name="METHOD_NAME" value="firstTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -172,17 +169,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scrolling.scrollToWebview" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TotalAmount.nnk" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectMobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="views.*" />
+          <option name="PATTERN" value="apiDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="views" />
-      <option name="MAIN_CLASS_NAME" value="views.Scrolling" />
-      <option name="METHOD_NAME" value="scrollToWebview" />
+      <option name="PACKAGE_NAME" value="generalStore" />
+      <option name="MAIN_CLASS_NAME" value="apiDemo.TotalAmount" />
+      <option name="METHOD_NAME" value="nnk" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TotalAmount.sumProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="generalStore" />
+      <option name="MAIN_CLASS_NAME" value="apiDemo.TotalAmount" />
+      <option name="METHOD_NAME" value="sumProducts" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -192,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ScrollingToProduct.scrolling" />
+        <item itemvalue="TestNG.HybridApp.sumProducts" />
+        <item itemvalue="TestNG.TotalAmount.sumProducts" />
         <item itemvalue="TestNG.FillingForm.failMissingToEnterName" />
-        <item itemvalue="TestNG.FillingForm.fillTheForm" />
-        <item itemvalue="TestNG.Scrolling.scrollToWebview" />
-        <item itemvalue="TestNG.CopyAndPaste.firstTest" />
+        <item itemvalue="TestNG.SetWifiName.firstTest" />
+        <item itemvalue="TestNG.TotalAmount.nnk" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +288,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722882383934</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="another success day">
+      <option name="closed" value="true" />
+      <created>1723125983389</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723125983389</updated>
+    </task>
+    <task id="LOCAL-00010" summary="another success day">
+      <option name="closed" value="true" />
+      <created>1723126013717</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723126013717</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

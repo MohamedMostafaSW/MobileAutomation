@@ -1,7 +1,7 @@
-package apiDemo.perference;
+package generalStore.perference;
 
 import InitializeTheAPP.OpenAPP;
-import locatorsAndFunctionsApiDemo.Perferences;
+import locatorsAndFunctionsGeneralStore.Perferences;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

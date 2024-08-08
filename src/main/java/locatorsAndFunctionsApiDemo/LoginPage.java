@@ -1,4 +1,4 @@
-package locatorsAndFunctionsGeneralStore;
+package locatorsAndFunctionsApiDemo;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -58,6 +58,5 @@ public class LoginPage {
     public boolean productsPage(){
         return products.isDisplayed();
     }
-
 
 }

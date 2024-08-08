@@ -1,7 +1,7 @@
-package generalStore;
+package apiDemo;
 
 import InitializeTheAPP.OpenAPP;
-import locatorsAndFunctionsGeneralStore.ProductsPage;
+import locatorsAndFunctionsApiDemo.ProductsPage;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 

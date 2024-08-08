@@ -1,8 +1,7 @@
-package locatorsAndFunctionsGeneralStore;
+package locatorsAndFunctionsApiDemo;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import io.appium.java_client.pagefactory.AndroidFindBys;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -12,6 +11,8 @@ public class ProductsPage extends LoginPage {
     public ProductsPage(AndroidDriver driver) {
         super(driver);
     }
+
+
 
     public void selectSpecificProducts(String enterProduct) {
         List<WebElement> prd = driver.findElements(By.id("com.androidsample.generalstore:id/productName"));

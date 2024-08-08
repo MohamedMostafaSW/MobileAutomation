@@ -32,11 +32,12 @@ public class OpenAPP {
                 .usingPort(4723).build();
         service.start();
         UiAutomator2Options options = new UiAutomator2Options();
-        options.setDeviceName("locatorsAndFunctionsApiDemo");
-//        options.setApp("C:\\Users\\Mohamed Mostafa\\Downloads\\APKFiles (1)\\resources\\ApiDemos-debug.apk");
+        options.setDeviceName("locatorsAndFunctionsGeneralStore");
+        options.setChromedriverExecutable("C:\\Users\\Mohamed Mostafa\\Downloads\\chrome-win64\\chrome.exe");
+        // options.setApp("C:\\Users\\Mohamed Mostafa\\Downloads\\APKFiles (1)\\resources\\ApiDemos-debug.apk");
         options.setApp("C:\\Users\\Mohamed Mostafa\\Downloads\\APKFiles (1)\\resources\\General-Store.apk");
         driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
-      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
     public void longPressMethod(WebElement element) {
@@ -51,21 +52,28 @@ public class OpenAPP {
                 "percent", 0.25));
     }
 
-    public void dragAndDropMethod(WebElement element,int putX,int putY) {
+    public void dragAndDropMethod(WebElement element, int putX, int putY) {
         ((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of(
                 "elementId", ((RemoteWebElement) element).getId(),
                 "endX", putX,
                 "endY", putY));
     }
-    public void scrollToSpecificText(String enterName){
+
+    public void scrollToSpecificText(String enterName) {
         driver.findElement(AppiumBy
                 .androidUIAutomator("new UiScrollable(new UiSelector())" +
-                        ".scrollIntoView(text(\""+enterName +"\"));"));
+                        ".scrollIntoView(text(\"" + enterName + "\"));"));
     }
-    public void openPage(String packageName, String activityName, String packageAndActivityName){
-        Activity activity = new Activity(packageName,activityName);
+
+    public double getformatAmount(String amount) {
+        Double price = Double.parseDouble(amount.substring(1));
+        return price;
+    }
+
+    public void openPage(String packageName, String activityName, String packageAndActivityName) {
+        Activity activity = new Activity(packageName, activityName);
         ((JavascriptExecutor) driver).executeScript("mobile: startActivity", ImmutableMap.of(
-                "intent",packageAndActivityName));
+                "intent", packageAndActivityName));
     }
 
     @AfterClass

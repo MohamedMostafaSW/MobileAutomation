@@ -1,7 +1,7 @@
-package apiDemo.views;
+package generalStore.views;
 
 import InitializeTheAPP.OpenAPP;
-import locatorsAndFunctionsApiDemo.DragAndDropELe;
+import locatorsAndFunctionsGeneralStore.DragAndDropELe;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
