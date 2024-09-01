@@ -16,7 +16,7 @@ public class HybridApp extends OpenAPP {
     public void sumProducts() throws InterruptedException {
         CartPage cart = new CartPage(driver);
 
-        cart.enterValidName("Mohamed Mostafa");
+        cart.enterValidName("Mohamed");
         cart.startShopping();
         cart.selectSpecificProducts("Air Jordan 4 Retro");
         scrollToSpecificText("Air Jordan 9 Retro");

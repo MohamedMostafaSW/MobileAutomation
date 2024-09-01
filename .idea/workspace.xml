@@ -4,28 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ca19791-7ad2-4efd-bc53-21d5d23318ef" name="Changes" comment="another success day">
-      <change afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiDemo/TotalAmount.java" afterDir="false" />
+    <list default="true" id="5ca19791-7ad2-4efd-bc53-21d5d23318ef" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/AppListOfDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/AppListOfDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/DragAndDropELe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/DragAndDropELe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/LongPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/LongPress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/Perferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/Perferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/ScrollingWebview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/ScrollingWebview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/SwipeInGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/SwipeInGallery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsGeneralStore/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locatorsAndFunctionsApiDemo/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InitializeTheAPP/OpenAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InitializeTheAPP/OpenAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/perference/CopyAndPaste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/perference/CopyAndPaste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/perference/SetWifiName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/perference/SetWifiName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/skills/ListInLandscapeMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/skills/ListInLandscapeMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/views/DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/views/DragAndDrop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/views/LongPressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/views/LongPressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/views/Scrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/views/Scrolling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/views/Swipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/generalStore/views/Swipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/generalStore/FillingForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiDemo/FillingForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/generalStore/ScrollingToProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiDemo/ScrollingToProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/HybridApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiDemo/HybridApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,37 +47,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.CopyAndPaste.firstTest.executor": "Run",
-    "TestNG.DragAndDrop.moveCircle.executor": "Run",
-    "TestNG.FillingForm.failMissingToEnterName.executor": "Run",
-    "TestNG.FillingForm.fillTheForm.executor": "Run",
-    "TestNG.HybridApp.sumProducts.executor": "Run",
-    "TestNG.ListOfDialog.verifyCommondsWork.executor": "Run",
-    "TestNG.LongPressTest.longPressGesture.executor": "Run",
-    "TestNG.OpenAPP.test.executor": "Run",
-    "TestNG.Scrolling.scrollToWebview.executor": "Run",
-    "TestNG.ScrollingToProduct.scrolling.executor": "Run",
-    "TestNG.SetWifiName.firstTest.executor": "Run",
-    "TestNG.Swipe.swipe.executor": "Run",
-    "TestNG.Test1.firstTest.executor": "Run",
-    "TestNG.Test2.longPressGesture.executor": "Run",
-    "TestNG.TotalAmount.nnk.executor": "Run",
-    "TestNG.TotalAmount.sumProducts.executor": "Run",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mohamed Mostafa/IdeaProjects/ProjectMobile/src/test/java/apiDemo/views",
-    "onboarding.tips.debug.path": "C:/Users/Mohamed Mostafa/IdeaProjects/ProjectMobile/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.CopyAndPaste.firstTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DragAndDrop.moveCircle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FillingForm.failMissingToEnterName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FillingForm.fillTheForm.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HybridApp.sumProducts.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ListOfDialog.verifyCommondsWork.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LongPressTest.longPressGesture.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OpenAPP.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Scrolling.scrollToWebview.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ScrollingToProduct.scrolling.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SetWifiName.firstTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Swipe.swipe.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test1.firstTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test2.longPressGesture.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TotalAmount.nnk.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TotalAmount.sumProducts.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mohamed Mostafa/IdeaProjects/ProjectMobile/src/test/java/apiDemo/views&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Mohamed Mostafa/IdeaProjects/ProjectMobile/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="perference" />
@@ -311,7 +292,8 @@
     <MESSAGE value="first time" />
     <MESSAGE value="Second time" />
     <MESSAGE value="another success day" />
-    <option name="LAST_COMMIT_MESSAGE" value="another success day" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
