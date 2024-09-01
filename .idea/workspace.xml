@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ca19791-7ad2-4efd-bc53-21d5d23318ef" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiDemo/HybridApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiDemo/HybridApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="5ca19791-7ad2-4efd-bc53-21d5d23318ef" name="Changes" comment="another day of success" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -285,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723126013717</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="another day of success">
+      <option name="closed" value="true" />
+      <created>1725204169444</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725204169444</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -293,7 +298,8 @@
     <MESSAGE value="Second time" />
     <MESSAGE value="another success day" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="another day of success" />
+    <option name="LAST_COMMIT_MESSAGE" value="another day of success" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
