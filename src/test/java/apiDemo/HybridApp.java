@@ -29,10 +29,11 @@ public class HybridApp extends OpenAPP {
             System.out.println(contextName);
         }
         driver.context("WEBVIEW_com.androidsample.generalstore");
-        driver.findElement(By.id("input")).sendKeys("youtube");
-        driver.findElement(By.id("input")).sendKeys(Keys.ENTER);
+        driver.findElement(By.name("q")).sendKeys("youtube");
+        driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
         driver.pressKey(new KeyEvent(AndroidKey.BACK));
         Thread.sleep(5000);
+        driver.context("NATIVE_APP");
 
     }
 }

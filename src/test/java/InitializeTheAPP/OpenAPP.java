@@ -33,7 +33,7 @@ public class OpenAPP {
         service.start();
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("locatorsAndFunctionsGeneralStore");
-        options.setChromedriverExecutable("C:\\Users\\Mohamed Mostafa\\Downloads\\chrome-win64\\chrome.exe");
+        options.setChromedriverExecutable("C:\\Users\\Mohamed Mostafa\\Downloads\\chromedriver_win32\\chromedriver.exe");
         // options.setApp("C:\\Users\\Mohamed Mostafa\\Downloads\\APKFiles (1)\\resources\\ApiDemos-debug.apk");
         options.setApp("C:\\Users\\Mohamed Mostafa\\Downloads\\APKFiles (1)\\resources\\General-Store.apk");
         driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
